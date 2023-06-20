@@ -2,7 +2,7 @@ reverse-mgs
 ================
 
 * locally using docker
-* remotely using kubernetes - kind
+* remotely using kubernetes - kind + metallb
 
 Deploying locally
 -----------------
