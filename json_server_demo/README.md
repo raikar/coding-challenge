@@ -2,7 +2,7 @@ json_server_test
 ================
 json_server_test with a db.json file
 * locally using docker
-* remotely using kubernetes - kind
+* remotely using kubernetes - kind + metallb
 
 Deploying locally 
 -----------------
