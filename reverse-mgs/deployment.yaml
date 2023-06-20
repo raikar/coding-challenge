@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: reversed-msg
+  labels:
+    app: reversed-msg
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: reversed-msg
+  template:
+    metadata:
+      labels:
+        app: reversed-msg
+    spec:
+      containers:
+      - name: reversed-msg
+        image: raikar/reverse-mgs:latest
+        ports:
+        - containerPort: 8083
