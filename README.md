@@ -44,7 +44,7 @@ I used ncat tool to redirect TCP port 8083 on the second app (reverse-mgs) to fi
 to verify the results i used nc
 
 ```bash
-echo -e "GET /posts HTTP/1.1\nHost: 10.1.1.2\nConnection: close\n\n\n\n" | nc 172.18.0.22 8083
+> echo -e "GET /posts HTTP/1.1\nHost: 10.1.1.2\nConnection: close\n\n\n\n" | nc 172.18.0.22 8083
 
 Output:
 [
