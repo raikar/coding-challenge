@@ -9,9 +9,9 @@ https://github.com/raikar/coding-challenge/tree/main/json_server_demo
 
 I used typicode JSON Server which provides fake REST API
 
-https://github.com/typicode/json-server
+> https://github.com/typicode/json-server
 
-https://hub.docker.com/r/clue/json-server
+> https://hub.docker.com/r/clue/json-server
 
 
 
