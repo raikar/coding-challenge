@@ -39,6 +39,19 @@ I used ncat tool to redirect TCP port 8083 on the second app (reverse-mgs) to fi
 
 ```bash
 > /usr/bin/ncat --sh-exec "ncat 172.18.0.21 80 |rev" -l 8083 --keep-open
+```
+
+to verify the results i used nc
+
+```bash
+Output:
+[
+{
+,1 :"di"
+"dlrow olleH" :"egassem"
+}
+]
+
 
 ```
 
