@@ -35,10 +35,11 @@ Used Kind and Metallb
 
 > https://github.com/raikar/coding-challenge/tree/main/reverse-mgs
 
-I used ncat tool to redirect TCP port 8083 on the second LB app (reverse-mgs) to first LB app (json_server_demo) on port 80, it also reverse the content of the http output
+I used ncat tool to redirect TCP port 8083 on the second app (reverse-mgs) to first app (json_server_demo) on port 80, it also reverse the content of the http output
 
 ```bash
 > /usr/bin/ncat --sh-exec "ncat 172.18.0.21 80 |rev" -l 8083 --keep-open
+
 ```
 
 
